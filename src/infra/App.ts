@@ -15,7 +15,7 @@ export class App implements ServiceInterface {
 
     async init() {
         const { tcp } = this;
-        console.log("App started");
+        console.log('App started');
 
         await tcp.init();
 
